@@ -1,8 +1,9 @@
 .score-board {
     display: flex;
     justify-content: space-evenly;
-    gap: 5px;
     align-items: center;
+    gap: 5px;
+    position: relative;
     height: 20px;
     margin-top: 20px;
 }

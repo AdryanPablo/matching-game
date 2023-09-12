@@ -1,0 +1,17 @@
+.arrow-down {
+    position: absolute;
+    top: -18px;
+    width: 20px;
+    height: 15px;
+    background-image: url('../../assets/images/icon-arrow-down.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arrow-down.-player1 {
+    transform: translateX(-38px);
+}
+
+.arrow-down.-player2 {
+    transform: translateX(38px);
+}
