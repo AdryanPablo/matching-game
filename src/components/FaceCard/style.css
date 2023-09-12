@@ -1,0 +1,20 @@
+.face-card {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 160px;
+    border: solid 2px var(--color-floral-white);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.face-card.-front {
+    background-color: var(--color-dark-blue);
+}
+
+.face-card.-back {
+    background-color: var(--color-fiery-rose);
+    transform: rotateY(180deg);
+}

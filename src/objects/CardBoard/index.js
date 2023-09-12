@@ -8,7 +8,7 @@ export default function CardBoard(amountCards) {
 
     for (let i = 1; i <= amountCards; i++) {
 
-        CardBoard.appendChild(CardGame('alura'))
+        CardBoard.appendChild(CardGame('javascript'))
 
     }
 

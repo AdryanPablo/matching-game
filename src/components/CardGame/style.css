@@ -1,9 +1,12 @@
 .card-game {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     width: 130px;
     height: 160px;
-    background-color: var(--color-dark-blue);
-    border: solid 2px var(--color-floral-white);
+    perspective: 260px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card-game.-active {
+    transform: rotateY(180deg);
 }

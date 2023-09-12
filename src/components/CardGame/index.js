@@ -1,4 +1,4 @@
-import Image from '../../elements/Image/index.js'
+import FaceCard from "../FaceCard/index.js"
 
 // image : string
 export default function CardGame(image) {
@@ -6,7 +6,18 @@ export default function CardGame(image) {
     const CardGame = document.createElement('article')
     CardGame.classList.add('card-game')
 
-    CardGame.appendChild(Image(image))
+    CardGame.appendChild(FaceCard('front'))
+    CardGame.appendChild(FaceCard('back', image))
+
+    CardGame.addEventListener('click', (event) => { turnCard(event.target) })
 
     return CardGame
+}
+
+function turnCard(target) {
+
+    const card = target.closest('.card-game')
+
+    card.classList.toggle('-active')
+
 }
