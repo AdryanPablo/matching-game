@@ -1,3 +1,4 @@
+// image : string
 export default function Image(image) {
 
     const Image = document.createElement('img')

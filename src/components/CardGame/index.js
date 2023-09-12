@@ -1,11 +1,12 @@
 import Image from '../../elements/Image/index.js'
 
-export default function CardGame(image, alt) {
+// image : string
+export default function CardGame(image) {
 
     const CardGame = document.createElement('article')
     CardGame.classList.add('card-game')
 
-    CardGame.appendChild(Image('alura'))
+    CardGame.appendChild(Image(image))
 
     return CardGame
 }

@@ -1,4 +1,4 @@
-import BoardGame from "./components/BoardGame/index.js"
+import BoardGame from './components/BoardGame/index.js'
 
 const $root = document.querySelector('#root')
 
