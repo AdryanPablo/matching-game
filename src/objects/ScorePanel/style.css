@@ -1,4 +1,6 @@
 .score-panel {
+    display: flex;
+    justify-content: space-between;
     width: 220px;
     height: 20px;
     margin-top: 20px;

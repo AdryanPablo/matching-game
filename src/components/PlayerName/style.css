@@ -1,0 +1,5 @@
+.player-name {
+    font-family: var(--display-font);
+    font-size: 0.8rem;
+    color: var(--color-floral-white);
+}
