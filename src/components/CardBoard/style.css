@@ -1,0 +1,6 @@
+.card-board {
+    width: 320px;
+    height: 600px;
+    background-color: var(--color-pomb-and-power);
+    border: solid 4px var(--color-floral-white);
+}
