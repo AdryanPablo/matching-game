@@ -5,7 +5,6 @@
     align-items: center;
     width: 130px;
     height: 160px;
-    border: solid 2px var(--color-floral-white);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }

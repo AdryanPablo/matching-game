@@ -1,0 +1,10 @@
+.score {
+    width: 14px;
+    height: 14px;
+    background-color: var(--color-old-silver);
+    border: solid 1px var(--color-floral-white);
+}
+
+.score.-active {
+    background-color: var(--color-mantis);
+}

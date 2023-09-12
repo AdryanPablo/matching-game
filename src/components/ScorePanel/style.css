@@ -1,0 +1,6 @@
+.score-panel {
+    display: flex;
+    width: 48px;
+    height: 16px;
+    border: solid 2px var(--color-fiery-rose);
+}
