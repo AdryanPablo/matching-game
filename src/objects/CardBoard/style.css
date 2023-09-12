@@ -1,0 +1,5 @@
+.card-board {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
