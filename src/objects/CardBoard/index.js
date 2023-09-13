@@ -2,7 +2,7 @@ import CardGame from '../../components/CardGame/index.js'
 
 import cardIcons from './cardIcons.js'
 import shuffleCards from '../../tools/shuffleCards.js'
-import hideCards from '../../tools/hideCards.js'
+import verifyActiveCards from '../../tools/verifyActiveCards.js'
 
 // amountCards : Number
 export default function CardBoard(amountCards) {
@@ -21,12 +21,4 @@ export default function CardBoard(amountCards) {
     CardBoard.addEventListener('click', verifyActiveCards)
 
     return CardBoard
-}
-
-function verifyActiveCards() {
-
-    const activeCards = document.querySelectorAll('.card-game.-active')
-
-    if (activeCards.length == 2) { hideCards(activeCards) }
-
 }
