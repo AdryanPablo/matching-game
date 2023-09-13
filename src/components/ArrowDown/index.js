@@ -1,3 +1,5 @@
+import changePlayer from '../../tools/changePlayer.js'
+
 export default function ArrowDown() {
 
     const ArrowDown = document.createElement('div')
@@ -7,13 +9,4 @@ export default function ArrowDown() {
     ArrowDown.addEventListener('click', changePlayer)
 
     return ArrowDown
-}
-
-function changePlayer() {
-
-    const ArrowDown = document.querySelector('.arrow-down')
-
-    ArrowDown.classList.toggle('-player1')
-    ArrowDown.classList.toggle('-player2')
-
 }
