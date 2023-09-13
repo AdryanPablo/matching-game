@@ -1,14 +1,19 @@
 import CardGame from '../../components/CardGame/index.js'
 
+import cardIcons from './cardIcons.js'
+import shuffleCards from '../../tools/shuffleCards.js'
+
 // amountCards : Number
 export default function CardBoard(amountCards) {
 
     const CardBoard = document.createElement('section')
     CardBoard.classList.add('card-board')
 
-    for (let i = 1; i <= amountCards; i++) {
+    shuffleCards(cardIcons)
 
-        CardBoard.appendChild(CardGame('javascript'))
+    for (let i = 0; i < amountCards; i++) {
+
+        CardBoard.appendChild(CardGame(cardIcons[i]))
 
     }
 
