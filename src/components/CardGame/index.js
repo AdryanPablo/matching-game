@@ -1,4 +1,6 @@
-import FaceCard from "../FaceCard/index.js"
+import FaceCard from '../FaceCard/index.js'
+
+import turnCard from '../../features/turnCard.js'
 
 // image : string
 export default function CardGame(image) {
@@ -12,12 +14,4 @@ export default function CardGame(image) {
     CardGame.addEventListener('click', (event) => { turnCard(event.target) })
 
     return CardGame
-}
-
-function turnCard(target) {
-
-    const card = target.closest('.card-game')
-
-    card.classList.toggle('-active')
-
 }
