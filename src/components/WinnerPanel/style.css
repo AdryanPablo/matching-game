@@ -1,0 +1,10 @@
+.winner-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 280px;
+    height: 220px;
+    background-color: var(--color-pomb-and-power);
+    border: solid 3px var(--color-floral-white);
+}

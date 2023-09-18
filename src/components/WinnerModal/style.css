@@ -1,0 +1,9 @@
+.winner-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 320px;
+    height: 600px;
+    background-color: var(--color-old-silver);
+}

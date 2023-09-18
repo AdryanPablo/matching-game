@@ -1,0 +1,13 @@
+.restart-button {
+    width: 240px;
+    height: 40px;
+    background-color: var(--color-fiery-rose);
+    border: solid 2px var(--color-floral-white);
+    font-family: var(--display-font);
+    color: var(--color-floral-white);
+}
+
+.restart-button:hover {
+    background-color: var(--color-dark-blue);
+    cursor: pointer;
+}

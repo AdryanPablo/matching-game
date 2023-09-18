@@ -1,0 +1,9 @@
+.winner-message {
+    font-family: var(--display-font);
+    font-size: 1rem;
+    color: var(--color-floral-white);  
+}
+
+.winner-message.-winner {
+    color: var(--color-mantis);
+}
