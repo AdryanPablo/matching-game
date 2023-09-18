@@ -1,7 +1,8 @@
+import Image from '../../elements/Image/index.js'
+
 export default function ArchievementIcon() {
 
-    const ArchievementIcon = document.createElement('img')
-    ArchievementIcon.setAttribute('src', './src/assets/images/icon-archievement.png')
-
+    const ArchievementIcon = Image('archievement', 'icon')
+    
     return ArchievementIcon
 }

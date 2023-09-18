@@ -3,9 +3,6 @@
     top: -18px;
     width: 20px;
     height: 15px;
-    background-image: url('../../assets/images/icon-arrow-down.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     transition: transform 0.5s ease-in-out;
 }
 

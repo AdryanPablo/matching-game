@@ -1,14 +1,8 @@
-import WinnerModal from '../components/WinnerModal/index.js'
+import showWinnerModal from './showWinnerModal.js'
+import verifyWinner from './verifyWinner.js'
 
 export default function finishGame() {
 
-    setTimeout(showWinnerModal, 500)
-
-}
-
-function showWinnerModal() {
-
-    const BoardGame = document.querySelector('.board-game')
-    BoardGame.appendChild(WinnerModal())
+    setTimeout(() => { showWinnerModal(verifyWinner()) }, 500)
 
 }
