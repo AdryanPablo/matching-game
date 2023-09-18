@@ -12,3 +12,7 @@
 .card-game.-active {
     transform: rotateY(180deg);
 }
+
+.card-game.-discovered {
+    transform: rotateY(180deg);    
+}
