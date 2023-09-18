@@ -1,6 +1,5 @@
 import ArrowDown from '../../components/ArrowDown/index.js'
-import PlayerName from '../../components/PlayerName/index.js'
-import ScorePanel from '../../components/ScorePanel/index.js'
+import PlayerWrapper from '../PlayerWrapper/index.js'
 import VsPlayer from '../../components/VsPlayer/index.js'
 
 export default function ScoreBoard() {
@@ -10,11 +9,10 @@ export default function ScoreBoard() {
 
     ScoreBoard.appendChild(ArrowDown())
 
-    ScoreBoard.appendChild(PlayerName('Player1'))
-    ScoreBoard.appendChild(ScorePanel())
+    ScoreBoard.appendChild(PlayerWrapper(1)) 
     ScoreBoard.appendChild(VsPlayer())
-    ScoreBoard.appendChild(ScorePanel())
-    ScoreBoard.appendChild(PlayerName('Player2'))
+    ScoreBoard.appendChild(PlayerWrapper(2))
+    
 
     return ScoreBoard
 }
