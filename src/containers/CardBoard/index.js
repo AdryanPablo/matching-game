@@ -3,6 +3,7 @@ import CardGame from '../../components/CardGame/index.js'
 import cardIcons from './cardIcons.js'
 import shuffleCards from '../../tools/shuffleCards.js'
 import verifyActiveCards from '../../tools/verifyActiveCards.js'
+import verifyDiscoveredCards from '../../tools/verifyDiscoveredCards.js'
 
 // amountCards : Number
 export default function CardBoard(amountCards) {
@@ -19,6 +20,7 @@ export default function CardBoard(amountCards) {
     }
 
     CardBoard.addEventListener('click', verifyActiveCards)
+    CardBoard.addEventListener('click', verifyDiscoveredCards)
 
     return CardBoard
 }
