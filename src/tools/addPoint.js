@@ -1,6 +1,8 @@
-export default function addPoint() {
+export default function addPoint(player = 'player1') {
 
-    const scorePanel = document.querySelectorAll('.score-panel > .score')
+    const scorePanel = document.querySelectorAll(`.-${player} .score`)
+
+    console.log(scorePanel)
 
     let playerScore = 0
     scorePanel.forEach((score) => {
