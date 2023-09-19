@@ -6,3 +6,4 @@ export default function showWinnerModal(winner = 'Player1') {
     BoardGame.appendChild(WinnerModal(winner))
 
 }
+
