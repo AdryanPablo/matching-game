@@ -6,7 +6,6 @@ export default function ArrowDown() {
 
     const ArrowDown = Image('arrow-down', 'icon')
     ArrowDown.classList.add('arrow-down')
-    ArrowDown.classList.add('-player1')
 
     return ArrowDown
 }
