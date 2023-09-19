@@ -6,7 +6,13 @@ export default function RestartButton() {
     RestartButton.classList.add('restart-button')
     RestartButton.textContent = 'Restart'
 
-    RestartButton.addEventListener('click', startGame)
+    RestartButton.addEventListener('click', () => {
+
+        const winner = document.querySelector('.winner-message.-player').textContent.toLowerCase()
+        
+        startGame(winner)
+    
+    })
 
     return RestartButton
 }
