@@ -1,8 +1,8 @@
 import findImage from './findImage.js'
 import discoverCards from './discoverCards.js'
-import addPoint from './addPoint.js'
+import addPoint from '../score/addPoint.js'
 import hideCards from './hideCards.js'
-import changePlayer from './changePlayer.js'
+import changePlayer from '../player/changePlayer.js'
 import verifyDiscoveredCards from './verifyDiscoveredCards.js'
 
 export default function verifyActiveCards() {

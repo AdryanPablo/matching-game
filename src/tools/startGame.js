@@ -1,7 +1,7 @@
-import hideWinnerModal from './hideWinnerModal.js'
-import hideCards from './hideCards.js'
-import resetScores from './resetScores.js'
-import choosePlayer from './choosePlayer.js'
+import hideWinnerModal from './modal/hideWinnerModal.js'
+import hideCards from './card/hideCards.js'
+import resetScores from './score/resetScores.js'
+import choosePlayer from './player/choosePlayer.js'
 
 export default function startGame() {
 
@@ -11,6 +11,5 @@ export default function startGame() {
     choosePlayer()
     
     console.log('Embaralhar cartões')
-    console.log('Vez do player1')
 
 }

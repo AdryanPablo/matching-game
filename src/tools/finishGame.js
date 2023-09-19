@@ -1,5 +1,5 @@
-import showWinnerModal from './showWinnerModal.js'
-import verifyWinner from './verifyWinner.js'
+import showWinnerModal from './modal/showWinnerModal.js'
+import verifyWinner from './player/verifyWinner.js'
 
 export default function finishGame() {
 

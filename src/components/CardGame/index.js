@@ -1,6 +1,6 @@
 import FaceCard from '../FaceCard/index.js'
 
-import turnCard from '../../tools/turnCard.js'
+import turnCard from '../../tools/card/turnCard.js'
 
 // image : string
 export default function CardGame(image) {

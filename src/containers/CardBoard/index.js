@@ -1,8 +1,8 @@
 import CardGame from '../../components/CardGame/index.js'
 
 import cardIcons from './cardIcons.js'
-import shuffleCards from '../../tools/shuffleCards.js'
-import verifyActiveCards from '../../tools/verifyActiveCards.js'
+import shuffleCards from '../../tools/card/shuffleCards.js'
+import verifyActiveCards from '../../tools/card/verifyActiveCards.js'
 
 // amountCards : Number
 export default function CardBoard(amountCards) {

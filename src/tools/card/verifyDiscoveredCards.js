@@ -1,4 +1,4 @@
-import finishGame from './finishGame.js'
+import finishGame from '../finishGame.js'
 
 export default function verifyDiscoveredCards() {
 

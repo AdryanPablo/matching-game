@@ -1,4 +1,4 @@
-import countScore from './countScore.js'
+import countScore from '../score/countScore.js'
 
 export default function verifyWinner() {
 

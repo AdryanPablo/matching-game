@@ -1,6 +1,6 @@
 import Image from '../../elements/Image/index.js'
 
-import changePlayer from '../../tools/changePlayer.js'
+import changePlayer from '../../tools/player/changePlayer.js'
 
 export default function ArrowDown() {
 

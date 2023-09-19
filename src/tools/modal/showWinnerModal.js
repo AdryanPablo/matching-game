@@ -1,4 +1,4 @@
-import WinnerModal from '../components/WinnerModal/index.js'
+import WinnerModal from '../../components/WinnerModal/index.js'
 
 export default function showWinnerModal(winner = 'Player1') {
 
