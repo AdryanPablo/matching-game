@@ -5,6 +5,6 @@
     border: solid 1px var(--color-floral-white);
 }
 
-.score.-active {
+.score.-point {
     background-color: var(--color-mantis);
 }

@@ -5,7 +5,7 @@ export default function countScore(player) {
     let playerScore = 0
     scorePanel.forEach((score) => {
 
-        if (score.classList.contains('-active')) { playerScore++ }
+        if (score.classList.contains('-point')) { playerScore++ }
 
     })
 
