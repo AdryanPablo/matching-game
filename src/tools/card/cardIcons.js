@@ -1,3 +1,5 @@
-const cardIcons = ['javascript', 'html', 'css', 'javascript', 'html', 'css']
+const cardIcons = ['javascript', 'html', 'css']
+
+cardIcons.push(...cardIcons)    // Duplicate array
 
 export default cardIcons

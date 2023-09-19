@@ -1,12 +1,13 @@
 import PlayerName from '../../components/PlayerName/index.js'
 import ScorePanel from '../../components/ScorePanel/index.js'
 
-export default function PlayerWrapper(player = 1) {
+// player: string === ['player1' | 'player2']
+export default function PlayerWrapper(player) {
 
     const PlayerWrapper = document.createElement('div')
     PlayerWrapper.classList.add('player-wrapper')
 
-    if (player === 1) {
+    if (player === 'player1') {
 
         PlayerWrapper.classList.add('-player1')
 

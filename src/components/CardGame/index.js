@@ -3,7 +3,7 @@ import FaceCard from '../FaceCard/index.js'
 import turnCard from '../../tools/card/turnCard.js'
 import verifyActiveCards from '../../tools/card/verifyActiveCards.js'
 
-// image : string
+// image: string # Technology logo
 export default function CardGame(image) {
 
     const CardGame = document.createElement('article')

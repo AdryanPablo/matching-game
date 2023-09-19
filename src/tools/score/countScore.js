@@ -1,3 +1,4 @@
+// player: string # Player who will have points counted
 export default function countScore(player) {
 
     const scorePanel = document.querySelectorAll(`.-${player} .score`)

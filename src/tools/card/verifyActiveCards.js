@@ -12,7 +12,7 @@ export default function verifyActiveCards() {
 
     if (activeCards.length == 2) {
 
-        if (findImage(activeCards[0]) == findImage(activeCards[1])) {   // Player find
+        if (findImage(activeCards[0]) == findImage(activeCards[1])) {   // Player get it right 
 
             setTimeout(() => {
 
@@ -22,7 +22,7 @@ export default function verifyActiveCards() {
 
             }, 500)
 
-        } else {    // Player didn't find
+        } else {    // Player didn't get it right
 
             setTimeout(() => { hideCards(activeCards) ; changePlayer() }, 500)
 

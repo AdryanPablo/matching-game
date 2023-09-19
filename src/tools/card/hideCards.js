@@ -1,4 +1,4 @@
-// activeCards : Array
+// activeCards: Array[HTMLElement]
 export default function hideCards(cards) {
 
     cards.forEach((card) => {

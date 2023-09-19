@@ -1,5 +1,5 @@
-// content: string
-// variationClass: string
+// content: string === [${playerName} | 'winner']
+// variationClass: string === ['-winner' | '-player']
 export default function WinnerMessage(content, variationClass) {
 
     const WinnerMessage = document.createElement('p')

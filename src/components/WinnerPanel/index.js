@@ -2,6 +2,7 @@ import WinnerMessage from '../WinnerMessage/index.js'
 import ArchievementIcon from '../ArchievementIcon/index.js'
 import RestartButton from '../RestartButton/index.js'
 
+// winner: string # Player name
 export default function WinnerPanel(winner) {
 
     const WinnerPanel = document.createElement('div')

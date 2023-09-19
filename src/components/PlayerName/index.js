@@ -1,4 +1,4 @@
-// name : string
+// name: string
 export default function PlayerName(name) {
 
     const PlayerName = document.createElement('span')

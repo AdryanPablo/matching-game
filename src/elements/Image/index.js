@@ -1,4 +1,5 @@
-// image : string
+// image: string # Technology logo
+// art: string === ['logo' | 'icon'] # Kind of image
 export default function Image(image, art = 'logo') {
 
     const Image = document.createElement('img')

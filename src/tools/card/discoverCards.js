@@ -1,3 +1,4 @@
+// activeCards: Array[HTMLElement]
 export default function discoverCards(activeCards) {
 
     activeCards.forEach((card) => {

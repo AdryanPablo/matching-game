@@ -1,6 +1,7 @@
 import Image from '../../elements/Image/index.js'
 
-// face : string
+// face: string === ['-front' | '-back']
+// image: string # Technology logo
 export default function FaceCard(face, image) {
 
     const FaceCard = document.createElement('aside')

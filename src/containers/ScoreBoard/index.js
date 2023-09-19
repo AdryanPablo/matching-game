@@ -9,9 +9,9 @@ export default function ScoreBoard() {
 
     ScoreBoard.appendChild(ArrowDown())
 
-    ScoreBoard.appendChild(PlayerWrapper(1)) 
+    ScoreBoard.appendChild(PlayerWrapper('player1')) 
     ScoreBoard.appendChild(VsPlayer())
-    ScoreBoard.appendChild(PlayerWrapper(2))
+    ScoreBoard.appendChild(PlayerWrapper('player2'))
     
 
     return ScoreBoard

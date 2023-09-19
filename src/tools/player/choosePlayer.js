@@ -1,4 +1,5 @@
-export default function choosePlayer(activePlayer = sortPlayer()) {
+// activePlayer: string === ['player1' | 'player2'] | undefined
+export default function choosePlayer(activePlayer = randomizePlayer()) {
 
     const ArrowDown = document.querySelector('.arrow-down')
 
@@ -15,7 +16,7 @@ export default function choosePlayer(activePlayer = sortPlayer()) {
     }
 }
 
-function sortPlayer() {
+function randomizePlayer() {
 
     return `player${Math.ceil(Math.random() * 2)}`
 
