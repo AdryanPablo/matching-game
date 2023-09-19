@@ -7,7 +7,7 @@ export default function BoardGame() {
     BoardGame.classList.add('board-game')
 
     BoardGame.appendChild(ScoreBoard())
-    BoardGame.appendChild(CardBoard(6))
+    BoardGame.appendChild(CardBoard())
 
     return BoardGame
 }
