@@ -3,6 +3,7 @@ import discoverCards from './discoverCards.js'
 import addPoint from './addPoint.js'
 import hideCards from './hideCards.js'
 import changePlayer from './changePlayer.js'
+import verifyDiscoveredCards from './verifyDiscoveredCards.js'
 
 export default function verifyActiveCards() {
 
@@ -13,13 +14,17 @@ export default function verifyActiveCards() {
 
         if (findImage(activeCards[0]) == findImage(activeCards[1])) {   // Player find
 
-            discoverCards(activeCards)
-            addPoint(activePlayer)
+            setTimeout(() => {
+
+                discoverCards(activeCards)
+                addPoint(activePlayer)
+                verifyDiscoveredCards()
+
+            }, 500)
 
         } else {    // Player didn't find
 
-            hideCards(activeCards)
-            changePlayer()
+            setTimeout(() => { hideCards(activeCards) ; changePlayer() }, 500)
 
         }    
     }

@@ -1,12 +1,10 @@
 // activeCards : Array
-export default function hideCards(activeCards) {
+export default function hideCards(cards) {
 
-    activeCards.forEach((card) => {
+    cards.forEach((card) => {
 
-        setTimeout(() => {
+        card.classList.remove('-active')
+        card.classList.remove('-discovered')
 
-            card.classList.remove('-active')
-
-        }, 500)
     })
 }
